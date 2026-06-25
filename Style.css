@@ -262,8 +262,8 @@ line-height: 1;
 .cert-head .eyebrow::after{content:''; width:42px; height:1px; background:var(--gold)}
 .cert-head h2{margin-top:18px}
 .cert-grid{display:grid; grid-template-columns:repeat(4,1fr); gap:22px}
-.cert-card{background:#fff; border:1px solid var(--line); border-radius:18px; padding:24px; transition:transform .3s, box-shadow .3s}
-.cert-card:hover{transform:translateY(-4px); box-shadow:var(--shadow)}
+.cert-card{background:transparent; border:none; padding:0; transition:transform .3s;}
+.cert-card:hover{transform:translateY(-4px);}
 .cert-row{display:flex; align-items:center; justify-content:space-between; margin-bottom:20px}
 .cert-badge{width:52px; height:52px; border-radius:12px; background:var(--green); color:#fff; display:grid; place-items:center}
 .cert-label{font-family:var(--serif); color:var(--gold); font-size:22px; font-style:italic}
